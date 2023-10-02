@@ -55,7 +55,7 @@ public class HoleManager : MonoBehaviour
         
         foreach (var hits in colorsInsideZone)
         {
-            if (hits==null)
+            if (hits is null)
             {
                 continue;
             }
